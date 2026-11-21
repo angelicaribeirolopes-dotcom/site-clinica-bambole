@@ -1,8 +1,8 @@
 title: Meu filho tem 2 anos e não fala: é normal? Quando procurar fonoaudiólogo
 description: O que é esperado da fala aos 12, 18 e 24 meses, sinais de alerta de atraso de fala e quando procurar um fonoaudiólogo em BH. Atraso de fala nem sempre é autismo.
 date: 2026-11-21
-cover: /assets/espaco-painel-sensorial.jpg
-cover_alt: Painel de atividades e estímulos da Clínica Bambolê
+cover: /assets/capa-fala-2-anos.jpg
+cover_alt: Ilustração 3D da Angélica Lopes apontando um livro de figuras junto com uma criança pequena, com balões de fala coloridos
 service: fonoaudiologia
 tldr: Cada criança tem seu ritmo, mas existem marcos de referência. Por volta de 1 ano surgem as primeiras palavras, e aos 2 anos a maioria das crianças já junta duas palavras ("quer água", "mamãe vem"). Não falar nenhuma palavra aos 16 meses, não juntar palavras aos 2 anos ou perder palavras que já falava são sinais para procurar avaliação com fonoaudiólogo. Atraso de fala não significa, sozinho, autismo.
 faq: Com quantos anos a criança deve começar a falar? | As primeiras palavras costumam aparecer por volta de 1 ano. Aos 18 meses a criança usa algumas palavras, e aos 2 anos já combina duas palavras em frases curtas.

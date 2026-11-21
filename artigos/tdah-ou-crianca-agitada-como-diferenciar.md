@@ -1,8 +1,8 @@
 title: TDAH ou só agitação? Como saber se meu filho tem TDAH
 description: Diferenças entre uma criança agitada e o TDAH, quais sinais observar, com que idade o diagnóstico pode ser feito e quem faz a avaliação em BH.
 date: 2026-11-21
-cover: /assets/espaco-escalada.jpg
-cover_alt: Estrutura de escalada e balanços da sala de psicomotricidade da Clínica Bambolê
+cover: /assets/capa-tdah-agitacao.jpg
+cover_alt: Ilustração 3D da Angélica Lopes sorrindo para um menino animado que brinca com um avião de papel
 service: avaliacao-neuropsicologica
 tldr: Toda criança é agitada em alguns momentos. No TDAH, a desatenção, a hiperatividade ou a impulsividade aparecem com frequência, por pelo menos 6 meses, em mais de um ambiente (em casa e na escola, por exemplo) e atrapalham a rotina, o aprendizado ou as relações. Não existe exame de sangue ou de imagem para TDAH: o diagnóstico é clínico, e a avaliação neuropsicológica ajuda a entender o perfil de atenção e a planejar o tratamento.
 faq: Como diferenciar TDAH de criança agitada? | Na criança apenas agitada, a inquietação depende da situação e não traz grandes prejuízos. No TDAH, os sinais são frequentes, duram pelo menos 6 meses, aparecem em mais de um ambiente e atrapalham a escola, a família ou as amizades.

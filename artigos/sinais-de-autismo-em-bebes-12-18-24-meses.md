@@ -1,8 +1,8 @@
 title: Sinais de autismo em bebês: o que observar aos 12, 18 e 24 meses
 description: Quais sinais de autismo podem aparecer no primeiro e no segundo ano de vida, o que observar em casa e quando procurar avaliação. Guia para famílias de BH.
 date: 2026-11-21
-cover: /assets/espaco-sala-puff.jpg
-cover_alt: Sala de atendimento infantil da Clínica Bambolê com tatame e puff
+cover: /assets/capa-autismo-bebes.jpg
+cover_alt: Ilustração 3D da Angélica Lopes brincando com um bebê no tapete, com uma bola macia e blocos de encaixe
 service: avaliacao-neuropsicologica
 tldr: Os primeiros sinais de autismo costumam aparecer entre 1 e 2 anos de vida. Os mais comuns são pouco contato visual, pouca resposta ao nome, não apontar para mostrar coisas, atraso de fala e brincadeiras repetitivas. Um sinal isolado não fecha diagnóstico, mas um conjunto deles, ou a perda de habilidades que a criança já tinha, é motivo para procurar avaliação o quanto antes.
 faq: Com quantos meses dá para perceber sinais de autismo? | Alguns sinais podem ser notados antes de 1 ano, como pouco contato visual e pouco sorriso social. Entre 12 e 24 meses eles costumam ficar mais claros, principalmente na comunicação.
