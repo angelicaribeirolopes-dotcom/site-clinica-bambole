@@ -1,0 +1,26 @@
+# Publica os artigos agendados: todo dia às 7h (Brasília), se houver artigo com a data de hoje,
+# faz um commit vazio para a Netlify gerar o site de novo e o artigo aparecer.
+name: Publicar artigos agendados
+on:
+  schedule:
+    - cron: "0 10 * * *"   # 10h UTC = 7h em Brasília
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Há artigo para hoje?
+        id: hoje
+        run: |
+          HOJE=$(TZ=America/Sao_Paulo date +%F)
+          if grep -l "^date: $HOJE" artigos/*.md; then echo "publicar=sim" >> "$GITHUB_OUTPUT"; else echo "Nenhum artigo agendado para $HOJE"; fi
+      - name: Disparar nova publicação na Netlify
+        if: steps.hoje.outputs.publicar == 'sim'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --allow-empty -m "Publicação agendada de artigos ($(TZ=America/Sao_Paulo date +%F))"
+          git push

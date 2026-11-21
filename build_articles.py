@@ -20,6 +20,7 @@ for path in sorted(_glob.glob("artigos/*.md")):
     meta["html"] = _md.markdown(body, extensions=["tables"])
     meta["words"] = len(body.split())
     ARTICLES.append(meta)
+ARTICLES[:] = [a for a in ARTICLES if a["date"] <= TODAY]  # artigos com data futura ficam agendados
 ARTICLES.sort(key=lambda a: a["date"], reverse=True)
 SVC_BY = {s["slug"]: s for s in SERVICOS}
 

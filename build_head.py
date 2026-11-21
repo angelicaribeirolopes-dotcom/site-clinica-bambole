@@ -3,7 +3,8 @@ import json, os, html, shutil, datetime
 from content import *
 
 OUT = "dist"
-TODAY = "2026-11-20"
+import datetime as _dt
+TODAY = _dt.datetime.now(_dt.timezone(_dt.timedelta(hours=-3))).strftime("%Y-%m-%d")  # horário de Brasília
 E = html.escape
 
 CSS = open("site.css", encoding="utf-8").read()

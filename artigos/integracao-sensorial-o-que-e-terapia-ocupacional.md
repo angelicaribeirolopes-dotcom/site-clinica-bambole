@@ -1,7 +1,7 @@
 title: Integração sensorial: o que é e quando a terapia ocupacional ajuda
 seo_title: Integração sensorial: o que é e sinais | Bambolê BH
 description: O que é integração sensorial, sinais de dificuldade com barulho, roupas, comida e movimento, e como a terapia ocupacional ajuda em BH.
-date: 2026-11-21
+date: 2026-11-22
 cover: /assets/capa-integracao-sensorial.jpg
 cover_alt: Ilustração 3D da Angélica Lopes ao lado de uma criança que se balança numa rede colorida, com parede de escalada e piscina de bolinhas
 service: terapia-ocupacional
