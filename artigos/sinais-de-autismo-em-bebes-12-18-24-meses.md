@@ -1,4 +1,5 @@
 title: Sinais de autismo em bebês: o que observar aos 12, 18 e 24 meses
+seo_title: Sinais de autismo em bebês: 12, 18 e 24 meses
 description: Quais sinais de autismo podem aparecer no primeiro e no segundo ano de vida, o que observar em casa e quando procurar avaliação. Guia para famílias de BH.
 date: 2026-11-21
 cover: /assets/capa-autismo-bebes.jpg

@@ -1,5 +1,6 @@
 title: TDAH: 3 dicas para a hora da tarefa de casa
-description: Três estratégias práticas para ajudar a criança com TDAH na hora da tarefa: respeitar o perfil de atenção, grifar palavras-chave e usar recompensas imediatas.
+seo_title: TDAH: 3 dicas para a hora da tarefa | Bambolê
+description: Três estratégias para ajudar a criança com TDAH na tarefa de casa: respeitar o perfil de atenção, grifar palavras-chave e usar recompensas imediatas.
 date: 2026-11-21
 cover: /assets/espaco-mesinha.jpg
 cover_alt: Mesinha infantil com materiais de atividade na Clínica Bambolê
@@ -37,5 +38,7 @@ Crianças com TDAH têm dificuldade em esperar por recompensas a longo prazo. Co
 ## Quando buscar apoio
 
 Cada criança com TDAH é única. Se a tarefa virou um conflito diário, a [psicopedagogia](/servicos/psicopedagogia/) e a psicologia podem trazer estratégias específicas para ela e orientação para a família. Veja também como atendemos [TDAH](/tdah/).
+
+Leia também: [TEA, TDAH, TOD e TOC: o que significa cada sigla](/artigos/tea-tdah-tod-siglas/).
 
 *Este conteúdo é informativo e não substitui uma avaliação profissional.*

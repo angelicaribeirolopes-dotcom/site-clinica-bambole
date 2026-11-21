@@ -1,5 +1,6 @@
 title: TEA, TDAH, TOD, TOC: o que significa cada sigla
-description: Guia rápido com as principais siglas do neurodesenvolvimento e da saúde emocional (TDAH, TOC, TOD, TEA, TAG, TPAC, TDL e TPS) e quando procurar uma avaliação.
+seo_title: TEA, TDAH, TOD e TOC: o que significa cada sigla
+description: O que significam TEA, TDAH, TOD, TOC, TPAC e outras siglas do desenvolvimento infantil, e qual profissional procurar em cada caso, em BH.
 date: 2026-11-20
 cover: /assets/ig-transtornos.jpg
 cover_alt: Quadro da Clínica Bambolê com as características principais de TDAH, TOC, TOD, TEA, TAG, TPAC, TDL e TPS
