@@ -3,7 +3,7 @@
 # Fontes: ficha do Google Maps, Catálogo de Serviços / design system da marca, Instagram @clinicabambole.
 # Descrições gerais das terapias são explicativas (o que é cada área), sem promessas de resultado.
 
-BASE = "https://www.clinicabambole.com.br"
+BASE = "https://clinicabambole.com.br"
 
 NAP = {
     "nome": "Clínica Bambolê",
