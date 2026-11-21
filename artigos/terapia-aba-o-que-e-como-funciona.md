@@ -1,8 +1,8 @@
 title: Terapia ABA: o que é, como funciona e para quem é indicada
 description: O que é a terapia ABA (Análise do Comportamento Aplicada), como é feita, para quem é indicada, quantas horas por semana e como a família participa. Clínica Bambolê, BH.
 date: 2026-11-21
-cover: /assets/espaco-mesa.jpg
-cover_alt: Mesa infantil e cavalete de pintura na Clínica Bambolê
+cover: /assets/capa-aba.jpg
+cover_alt: Ilustração 3D da Angélica Lopes e um menino sentados à mesa com cartões de figuras
 service: terapia-aba
 tldr: ABA (Análise do Comportamento Aplicada) é uma abordagem da psicologia que ensina habilidades e reduz comportamentos que atrapalham a rotina, a partir da observação de cada pessoa. É muito usada no autismo, mas também ajuda em outras condições. O plano é individual, feito depois de uma avaliação, e a quantidade de horas por semana depende das necessidades de cada criança, sem um número único que sirva para todos.
 faq: O que é terapia ABA? | É uma abordagem da psicologia baseada na Análise do Comportamento. Ela observa o que acontece antes e depois de cada comportamento para ensinar habilidades novas e reduzir comportamentos que trazem prejuízo.

@@ -1,8 +1,8 @@
 title: Integração sensorial: o que é e quando a terapia ocupacional ajuda
 description: O que é integração sensorial, sinais de dificuldade de processamento sensorial (barulho, roupas, comida, movimento) e como a terapia ocupacional trabalha em BH.
 date: 2026-11-21
-cover: /assets/espaco-sala-ampla.jpg
-cover_alt: Sala de Terapia Ocupacional e Psicomotricidade da Clínica Bambolê
+cover: /assets/capa-integracao-sensorial.jpg
+cover_alt: Ilustração 3D da Angélica Lopes ao lado de uma criança que se balança numa rede colorida, com parede de escalada e piscina de bolinhas
 service: terapia-ocupacional
 tldr: Integração sensorial é a forma como o cérebro recebe e organiza as informações dos sentidos, como toque, sons, movimento e posição do corpo. Quando esse processamento não funciona bem, a criança pode se incomodar muito com barulhos, roupas ou texturas de comida, ou buscar movimento o tempo todo. A terapia ocupacional com abordagem de integração sensorial usa atividades com balanços, escalada e brincadeiras para ajudar a criança a se organizar melhor no dia a dia.
 faq: O que é integração sensorial? | É o processo pelo qual o cérebro recebe, organiza e responde às informações dos sentidos, como tato, audição, visão, movimento e percepção do próprio corpo.

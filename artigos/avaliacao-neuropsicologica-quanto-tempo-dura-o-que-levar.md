@@ -1,8 +1,8 @@
 title: Quanto tempo dura a avaliação neuropsicológica e o que levar no primeiro dia
 description: Quantas sessões tem a avaliação neuropsicológica, quanto tempo leva até o laudo, o que levar na primeira consulta e como preparar a criança. Guia da Clínica Bambolê, BH.
 date: 2026-11-21
-cover: /assets/sala-atendimento.jpg
-cover_alt: Angélica Lopes em uma sala de atendimento da Clínica Bambolê
+cover: /assets/capa-avaliacao-tempo.jpg
+cover_alt: Ilustração 3D da Angélica Lopes acompanhando um menino que monta um quebra-cabeça, com a mãe sentada ao fundo
 service: avaliacao-neuropsicologica
 tldr: Na Clínica Bambolê, a avaliação neuropsicológica costuma ter de 10 a 15 sessões de 50 minutos, incluindo entrevista com a família, aplicação de testes e escalas e a devolutiva com o laudo. O número exato depende da idade e da pergunta que a avaliação precisa responder. Para a primeira consulta, leve relatórios escolares, laudos e exames anteriores e a lista de medicamentos em uso.
 faq: Quantas sessões tem a avaliação neuropsicológica? | Na Bambolê, em geral de 10 a 15 sessões de 50 minutos. O número varia conforme a idade, a queixa e os testes necessários.
