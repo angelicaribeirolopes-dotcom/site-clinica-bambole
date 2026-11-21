@@ -27,8 +27,10 @@ psicomotricidade, psicopedagogia, fisioterapia, oficinas-sociais, musicoterapia,
 
 ## Publicar
 1. Salve o arquivo em `artigos/` (e a imagem em `assets/`).
-2. Rode `python3 build.py` — o site é gerado na pasta `dist/`, com sitemap, llms.txt e dados estruturados atualizados.
-3. Arraste a pasta `dist/` (ou um .zip dela) em Deploys, no painel da Netlify.
+2. Rode `python3 build.py` para conferir se o site é gerado sem erro.
+3. Faça o commit e o push para a branch `main` no GitHub. A Netlify gera e publica o site sozinha em cerca de 1 minuto.
+
+Pelo Claude: escreva "publicar artigo Bambolê: [ideia ou texto]" e ele faz todos os passos.
 
 ## Dicas de SEO
 - Um tema por artigo, respondendo a uma dúvida real (veja o que as famílias perguntam no WhatsApp e no Instagram).
