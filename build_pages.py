@@ -251,7 +251,7 @@ pages["/perguntas-frequentes/"] = page("/perguntas-frequentes/", "Perguntas freq
 cont = head_block("Contato", "Fale com a Clínica Bambolê", "WhatsApp, telefones, endereço e horários.", "azul") + \
     tldr(f'A Clínica Bambolê fica na {NAP["rua"]}, bairro {NAP["bairro"]} (Pampulha), Belo Horizonte – MG, {NAP["cep"]}. Atende de segunda a sexta, das 8h às 20h, e aos sábados, das 8h às 16h. WhatsApp: {NAP["whats"]}.') + \
     f'<section class="sec"><div class="wrap contact">{form_html()}{loc_card()}</div></section>' + \
-    f'<section class="sec"><div class="wrap wrap-narrow"><span class="over">Outros canais</span><p>Telefones: {NAP["tel2"]} · {NAP["tel3"]}<br>Instagram: <a href="{NAP["instagram"]}" target="_blank" rel="noopener">@clinicabambole</a></p></div></section>'
+    f'<section class="sec"><div class="wrap wrap-narrow"><span class="over">Outros canais</span><p>Telefone: {NAP["tel3"]}<br>Instagram: <a href="{NAP["instagram"]}" target="_blank" rel="noopener">@clinicabambole</a></p></div></section>'
 pages["/contato/"] = page("/contato/", "Contato e endereço | Clínica Bambolê – Santa Amélia, Pampulha, BH",
     f'WhatsApp {NAP["whats"]}. {NAP["rua"]}, Santa Amélia (Pampulha), Belo Horizonte. Seg a sex 8h–20h, sáb 8h–16h. Agende na Clínica Bambolê.', cont,
     [{"@type": "ContactPage", "url": BASE + "/contato/"}, clinic_schema()], crumbs=[("Início", "/"), ("Contato", "/contato/")])

@@ -178,7 +178,7 @@ def form_html(title="Vamos conversar?", lead="", svc=""):
     lead = "Chame a equipe da Bambolê no WhatsApp. Conte o que está acontecendo e a idade do paciente, e a gente te orienta sobre o melhor caminho."
     return f'''<div class="panel wa-panel" id="agendar" data-reveal><span class="over">Agendamento</span><h2>{title}</h2><p class="muted">{lead}</p>
 <a class="btn btn-wa btn-big" href="{wa(svc) if svc else WA}" target="_blank" rel="noopener">{wa_icon()}Chamar no WhatsApp</a>
-<ul class="wa-info"><li><b>WhatsApp</b> {NAP["whats"]}</li><li><b>Telefones</b> <a href="tel:+553134272436">{NAP["tel3"]}</a> · <a href="tel:+5531997325819">{NAP["tel2"]}</a></li><li><b>Atendimento</b> seg. a sex., 8h às 20h · sáb., 8h às 16h</li></ul>
+<ul class="wa-info"><li><b>WhatsApp</b> {NAP["whats"]}</li><li><b>Telefone</b> <a href="tel:+553134272436">{NAP["tel3"]}</a></li><li><b>Atendimento</b> seg. a sex., 8h às 20h · sáb., 8h às 16h</li></ul>
 <p class="note">Atendimento particular, presencial e online, com nota para reembolso.</p></div>'''
 
 def loc_card():
