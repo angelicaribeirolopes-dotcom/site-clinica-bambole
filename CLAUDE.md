@@ -10,3 +10,5 @@ Site estático gerado em Python e publicado pela Netlify a cada push na branch `
 - Regras: não inventar avaliações, números, prêmios ou fotos; não publicar depoimentos de pacientes,
   preços ou promessa de resultados (CFP/CRP-MG); Angélica Lopes, neuropsicóloga, CRP 04/37600,
   especialista em Autismo (TEA); equipe "com formação em ABA".
+- Repositório PÚBLICO: nunca salvar aqui senhas, chaves de API, dados de pacientes, contatos de pessoas
+  ou qualquer informação interna da clínica. Só o conteúdo que já aparece no site.
