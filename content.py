@@ -298,4 +298,4 @@ CURRICULO = ["Neuropsicóloga", "Formação em ABA", "Especialista em Autismo (T
 
 # Marcações de anúncios e análise (as mesmas do site antigo)
 TRACK = {"gtm": "GTM-W7TLFHJ5", "ga4": "G-DZL95R1LLP", "ads": "AW-16869774533",
-         "ads_conv": "AW-16869774533/w7o4COLf-JwaEMWpkew-", "meta": "3393514717496749"}
+         "meta": "3393514717496749"}

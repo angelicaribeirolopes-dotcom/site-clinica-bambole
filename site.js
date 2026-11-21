@@ -58,7 +58,7 @@ document.querySelectorAll('input[name="pagina"]').forEach(function(i){ i.value =
 /* Conversões: clique no WhatsApp ou no telefone */
 (function () {
   function conv(tipo) {
-    try { if (window.gtag && window.ADS_CONV) gtag('event', 'conversion', { send_to: window.ADS_CONV, value: 1.0, currency: 'BRL' }); } catch (e) {}
+    /* A conversão do Google Ads ([A31] Clique botão Whats) é disparada pelo Tag Manager no clique em links wa.me */
     try { if (window.gtag) gtag('event', 'generate_lead', { method: tipo, page_path: location.pathname }); } catch (e) {}
     try { if (window.fbq) fbq('track', 'Contact'); } catch (e) {}
   }
