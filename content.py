@@ -3,7 +3,7 @@
 # Fontes: ficha do Google Maps, Catálogo de Serviços / design system da marca, Instagram @clinicabambole.
 # Descrições gerais das terapias são explicativas (o que é cada área), sem promessas de resultado.
 
-BASE = "https://inspiring-cobbler-e7874e.netlify.app"
+BASE = "https://www.clinicabambole.com.br"
 
 NAP = {
     "nome": "Clínica Bambolê",
@@ -231,7 +231,7 @@ _CAT = {
     equipe=["Conduzida a partir da neuropsicologia, com a supervisão da neuropsicóloga Angélica Lopes (CRP 04/37600)", "Mais de 40 testes e escalas padronizados", "Acervo escolhido pela neuropsicologia"]),
  "terapia-aba": dict(
     intro0="Acompanhamento psicológico para crianças, adolescentes e adultos, típicos e atípicos: de ansiedade e questões emocionais ao autismo, com ABA, TCC, PECS e técnicas lúdicas.",
-    para_quem=["Crianças, adolescentes e adultos", "Autismo (TEA), TDAH e outras condições", "Quem quer lidar melhor com as emoções", "Intervenção precoce"],
+    para_quem=["Crianças, adolescentes e adultos", "Autismo (TEA), TDAH e outras condições", "Ansiedade, depressão e TOC", "Quem quer lidar melhor com as emoções", "Intervenção precoce"],
     passos=[("Avaliação das necessidades", "Cada paciente é avaliado para entender as necessidades e os objetivos."), ("Plano personalizado", "Plano individual e lúdico para crianças, com ABA, TCC, PECS ou técnicas lúdicas."), ("Família e escola juntas", "Para crianças, família e escola participam do processo."), ("Sessões de 50 minutos", "Atendimento individual, com psicólogas com formação em ABA e TCC.")],
     foto=("espaco-sala-puff.jpg", "Sala de atendimento da Clínica Bambolê, com tatame e puff"),
     equipe=["Psicólogas com formação em ABA e TCC", "Formação em autismo baseada em evidências", "Protocolo VB-MAPP e orientação a pais e aplicadores"]),
@@ -296,3 +296,7 @@ ESPACO = [("Salas climatizadas e silenciosas", "Pensadas para quem tem sensibili
           ("Banheiro acessível", "Pensado para estimular a independência."),
           ("Sala de TO e Psicomotricidade", "Espaço amplo, com estrutura de escalada, balanços e piscina de bolinhas.")]
 CURRICULO = ["Neuropsicóloga", "Formação em ABA", "Especialista em Autismo (TEA)", "Terapia Cognitivo-Comportamental (TCC)", "Reabilitação do TDAH", "Comunicação Aumentativa e Alternativa (CAA)", "Psicoterapia Humanista"]
+
+# Marcações de anúncios e análise (as mesmas do site antigo)
+TRACK = {"gtm": "GTM-W7TLFHJ5", "ga4": "G-DZL95R1LLP", "ads": "AW-16869774533",
+         "ads_conv": "AW-16869774533/w7o4COLf-JwaEMWpkew-", "meta": "3393514717496749"}

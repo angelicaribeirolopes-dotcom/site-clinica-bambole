@@ -84,3 +84,23 @@ open(OUT + "/llms.txt", "w", encoding="utf-8").write(f"""# Clínica Bambolê –
 {faq_md}
 """)
 print("pages:", len(pages) + 1)
+
+# Redirecionamentos do site antigo (301) e domínio
+REDIRECTS = [
+ ("/autismo.html", "/autismo-tea/"), ("/tdah.html", "/tdah/"),
+ ("/avaliacao_neuropsicologica.html", "/servicos/avaliacao-neuropsicologica/"),
+ ("/psicologia.html", "/servicos/terapia-aba/"), ("/depressao.html", "/servicos/terapia-aba/"), ("/toc.html", "/servicos/terapia-aba/"),
+ ("/fonoaudiologia.html", "/servicos/fonoaudiologia/"), ("/musicoterapia.html", "/servicos/musicoterapia/"),
+ ("/oficinas_sociais.html", "/servicos/oficinas-sociais/"), ("/oficinas_em_grupo.html", "/servicos/oficinas-sociais/"),
+ ("/psicomotricidade.html", "/servicos/psicomotricidade/"), ("/terapia_ocupacional.html", "/servicos/terapia-ocupacional/"),
+ ("/treinamento_pais.html", "/servicos/orientacao-parental/"),
+ ("/artigo_ansiedade.html", "/artigos/ansiedade-sintomas-causas-tratamento/"),
+ ("/artigo_autismo.html", "/artigos/autismo-o-que-e-sinais-diagnostico/"),
+ ("/artigo_auto_estima.html", "/artigos/autoestima-o-que-e-como-melhorar/"),
+ ("/artigo_tdah.html", "/artigos/tdah-dicas-hora-da-tarefa/"),
+]
+for _o, _n in REDIRECTS:
+    assert _n == "/" or _n in pages, "redirecionamento para página inexistente: " + _n
+_r = ["https://clinicabambole.com.br/* https://www.clinicabambole.com.br/:splat 301!"]
+_r += [f"{o} {n} 301!" for o, n in REDIRECTS]
+open(OUT + "/_redirects", "w").write("\n".join(_r) + "\n")
