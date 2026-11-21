@@ -1,5 +1,6 @@
 title: Quanto tempo dura a avaliação neuropsicológica e o que levar no primeiro dia
-description: Quantas sessões tem a avaliação neuropsicológica, quanto tempo leva até o laudo, o que levar na primeira consulta e como preparar a criança. Guia da Clínica Bambolê, BH.
+seo_title: Avaliação neuropsicológica: quanto tempo dura?
+description: Quantas sessões tem a avaliação neuropsicológica, quando sai o laudo, o que levar na primeira consulta e como preparar a criança. Clínica Bambolê, BH.
 date: 2026-11-21
 cover: /assets/capa-avaliacao-tempo.jpg
 cover_alt: Ilustração 3D da Angélica Lopes acompanhando um menino que monta um quebra-cabeça, com a mãe sentada ao fundo

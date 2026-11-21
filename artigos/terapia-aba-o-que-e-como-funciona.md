@@ -1,5 +1,6 @@
 title: Terapia ABA: o que é, como funciona e para quem é indicada
-description: O que é a terapia ABA (Análise do Comportamento Aplicada), como é feita, para quem é indicada, quantas horas por semana e como a família participa. Clínica Bambolê, BH.
+seo_title: Terapia ABA: o que é e como funciona | Bambolê BH
+description: O que é a terapia ABA, como funciona, para quem é indicada e quantas horas por semana. Psicólogas com formação em ABA na Clínica Bambolê, BH.
 date: 2026-11-21
 cover: /assets/capa-aba.jpg
 cover_alt: Ilustração 3D da Angélica Lopes e um menino sentados à mesa com cartões de figuras

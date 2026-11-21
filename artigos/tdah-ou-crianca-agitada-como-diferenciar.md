@@ -1,4 +1,5 @@
 title: TDAH ou só agitação? Como saber se meu filho tem TDAH
+seo_title: TDAH ou agitação? Como saber se seu filho tem TDAH
 description: Diferenças entre uma criança agitada e o TDAH, quais sinais observar, com que idade o diagnóstico pode ser feito e quem faz a avaliação em BH.
 date: 2026-11-21
 cover: /assets/capa-tdah-agitacao.jpg

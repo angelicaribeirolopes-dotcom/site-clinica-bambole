@@ -1,5 +1,6 @@
 title: Meu filho tem 2 anos e não fala: é normal? Quando procurar fonoaudiólogo
-description: O que é esperado da fala aos 12, 18 e 24 meses, sinais de alerta de atraso de fala e quando procurar um fonoaudiólogo em BH. Atraso de fala nem sempre é autismo.
+seo_title: Criança de 2 anos não fala: quando procurar fono?
+description: O que é esperado da fala aos 12, 18 e 24 meses, sinais de atraso e quando procurar fonoaudiólogo em BH. Atraso de fala nem sempre é autismo.
 date: 2026-11-21
 cover: /assets/capa-fala-2-anos.jpg
 cover_alt: Ilustração 3D da Angélica Lopes apontando um livro de figuras junto com uma criança pequena, com balões de fala coloridos

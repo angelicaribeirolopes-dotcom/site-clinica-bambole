@@ -1,5 +1,6 @@
 title: Integração sensorial: o que é e quando a terapia ocupacional ajuda
-description: O que é integração sensorial, sinais de dificuldade de processamento sensorial (barulho, roupas, comida, movimento) e como a terapia ocupacional trabalha em BH.
+seo_title: Integração sensorial: o que é e sinais | Bambolê BH
+description: O que é integração sensorial, sinais de dificuldade com barulho, roupas, comida e movimento, e como a terapia ocupacional ajuda em BH.
 date: 2026-11-21
 cover: /assets/capa-integracao-sensorial.jpg
 cover_alt: Ilustração 3D da Angélica Lopes ao lado de uma criança que se balança numa rede colorida, com parede de escalada e piscina de bolinhas
@@ -56,5 +57,7 @@ Quando a recusa de alimentos tem origem sensorial, a terapia trabalha a aproxima
 ## Na Clínica Bambolê
 
 A sala de terapia ocupacional e psicomotricidade da Bambolê, na Pampulha, em Belo Horizonte, tem estrutura de escalada, balanços e piscina de bolinhas, e a equipe tem formação em Integração Sensorial de Ayres. Saiba mais sobre a [terapia ocupacional](/servicos/terapia-ocupacional/) e a [psicomotricidade](/servicos/psicomotricidade/).
+
+Leia também: [sinais de autismo em bebês](/artigos/sinais-de-autismo-em-bebes-12-18-24-meses/).
 
 *Este conteúdo é informativo e não substitui uma avaliação profissional.*
