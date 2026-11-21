@@ -7,7 +7,8 @@ O nome do arquivo vira o endereço: `artigos/sinais-de-tdah-em-adultos.md` → `
 
 ```
 title: Título do artigo (com a palavra que as pessoas buscam no Google)
-description: Resumo de 1 a 2 frases (até ~155 caracteres) que aparece no Google.
+seo_title: Título curto para a aba do Google, até 60 caracteres
+description: Resumo de 1 a 2 frases, até 155 caracteres, que aparece no Google.
 date: 2026-12-01
 cover: /assets/nome-da-imagem.jpg
 cover_alt: Descrição da imagem para acessibilidade e Google
@@ -35,5 +36,5 @@ Pelo Claude: escreva "publicar artigo Bambolê: [ideia ou texto]" e ele faz todo
 ## Dicas de SEO
 - Um tema por artigo, respondendo a uma dúvida real (veja o que as famílias perguntam no WhatsApp e no Instagram).
 - Título com o termo buscado + contexto (ex.: "… em crianças", "… em BH").
-- Sempre linkar para o serviço relacionado e para outro artigo.
+- Sempre linkar para o serviço relacionado e para pelo menos 2 outros artigos ou páginas (mínimo de 3 links internos).
 - Peça para a Angélica revisar: conteúdo de saúde revisado por profissional ganha confiança no Google.
