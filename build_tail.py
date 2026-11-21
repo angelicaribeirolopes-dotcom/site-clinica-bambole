@@ -100,6 +100,6 @@ REDIRECTS = [
 ]
 for _o, _n in REDIRECTS:
     assert _n == "/" or _n in pages, "redirecionamento para página inexistente: " + _n
-_r = ["https://www.clinicabambole.com.br/* https://clinicabambole.com.br/:splat 301!"]
+_r = [f"https://{d}/* https://clinicabambole.com.br/:splat 301!" for d in ("www.clinicabambole.com.br", "bamboleclinica.com.br", "www.bamboleclinica.com.br")]
 _r += [f"{o} {n} 301!" for o, n in REDIRECTS]
 open(OUT + "/_redirects", "w").write("\n".join(_r) + "\n")
