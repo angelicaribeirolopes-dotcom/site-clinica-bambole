@@ -171,20 +171,15 @@ def cta_band(t="Ficou com alguma dúvida?", s="Fale com a gente e agende uma con
 def reviews_html(items=None):
     return f'''<section class="sec" id="avaliacoes"><div class="wrap"><div class="block rev-head" data-reveal><div><span class="over">Google</span><h2>Avaliações da clínica</h2><p>As avaliações das famílias ficam no nosso perfil do Google.</p></div><div class="score"><strong>5,0</strong><div><span class="stars" aria-label="5 de 5 estrelas">★★★★★</span><small>nota no Google</small></div></div><a class="btn btn-line" href="{{NAP["maps"]}}" target="_blank" rel="noopener">Ver no Google →</a></div></div></section>'''
 
-def form_html(title="Vamos começar?", lead="Preencha seus dados e a equipe da Bambolê retorna pelo WhatsApp.", svc=""):
-    opts = "".join(f'<option{" selected" if s["nome"]==svc else ""}>{s["nome"]}</option>' for s in SERVICOS)
-    return f'''<div class="panel" id="agendar" data-reveal><span class="over">Agendamento</span><h2>{title}</h2><p class="muted">{lead}</p>
-<form name="pedido" method="POST" action="/obrigado/" netlify data-netlify="true" netlify-honeypot="bot-field">
-<input type="hidden" name="form-name" value="pedido"><input type="hidden" name="pagina" value="">
-<p class="hp"><label>Não preencha: <input name="bot-field"></label></p>
-<div><label for="nome">Nome</label><input id="nome" name="nome" type="text" autocomplete="name" required></div>
-<div class="row"><div><label for="whatsapp">WhatsApp</label><input id="whatsapp" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" placeholder="(31) 9xxxx-xxxx" required></div>
-<div><label for="email">E-mail</label><input id="email" name="email" type="email" autocomplete="email"></div></div>
-<div class="row"><div><label for="bairro">Bairro</label><input id="bairro" name="bairro" type="text" autocomplete="address-level3" required></div>
-<div><label for="servico">Serviço de interesse</label><select id="servico" name="servico"><option value=""{" selected" if not svc else ""}>Ainda não sei</option>{opts}</select></div></div>
-<div><label for="pedido">O que você precisa?</label><textarea id="pedido" name="pedido" required placeholder="Conte rapidamente o que está acontecendo e a idade do paciente"></textarea></div>
-<button class="btn btn-navy" type="submit">Quero ser chamado no WhatsApp</button>
-<p class="note">Resposta pelo WhatsApp em horário comercial. Seus dados são usados só para responder ao seu pedido.</p></form></div>'''
+def form_html(title="Vamos conversar?", lead="", svc=""):
+    """Bloco de agendamento: só WhatsApp e telefone (sem formulário)."""
+    if "chame" in title.lower() or "dúvida" in title.lower():
+        title = "Vamos conversar?"
+    lead = "Chame a equipe da Bambolê no WhatsApp. Conte o que está acontecendo e a idade do paciente, e a gente te orienta sobre o melhor caminho."
+    return f'''<div class="panel wa-panel" id="agendar" data-reveal><span class="over">Agendamento</span><h2>{title}</h2><p class="muted">{lead}</p>
+<a class="btn btn-wa btn-big" href="{wa(svc) if svc else WA}" target="_blank" rel="noopener">{wa_icon()}Chamar no WhatsApp</a>
+<ul class="wa-info"><li><b>WhatsApp</b> {NAP["whats"]}</li><li><b>Telefones</b> <a href="tel:+553134272436">{NAP["tel3"]}</a> · <a href="tel:+5531997325819">{NAP["tel2"]}</a></li><li><b>Atendimento</b> seg. a sex., 8h às 20h · sáb., 8h às 16h</li></ul>
+<p class="note">Atendimento particular, presencial e online, com nota para reembolso.</p></div>'''
 
 def loc_card():
     hrs = "<br>".join(f"{d}: {h}" for d, h in HORARIO)

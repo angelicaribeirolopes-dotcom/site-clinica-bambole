@@ -214,7 +214,7 @@ COR_TXT = {"azul": "var(--off)", "rosa": "var(--off)", "laranja": "var(--marinho
 FAQ_GERAL = [
     ("Onde fica a Clínica Bambolê?", "Na Rua Alair Marques Rodrigues, 551, bairro Santa Amélia, região da Pampulha, em Belo Horizonte (MG), CEP 31560-220."),
     ("Qual o horário de funcionamento?", "De segunda a sexta, das 8h às 20h, e aos sábados, das 8h às 16h. Aos domingos a clínica fica fechada."),
-    ("Como agendar uma consulta?", "Pelo WhatsApp (31) 99622-5819 ou pelo formulário do site. A equipe retorna pelo WhatsApp."),
+    ("Como agendar uma consulta?", "Pelo WhatsApp (31) 99622-5819, que é o canal mais rápido, ou pelos telefones (31) 3427-2436 e (31) 99732-5819."),
     ("A Bambolê atende plano de saúde?", "O atendimento é particular, e a clínica emite nota para você solicitar reembolso ao seu plano de saúde."),
     ("A clínica atende adultos?", "Sim. A Bambolê atende crianças, adolescentes e adultos, típicos e atípicos."),
     ("Tem atendimento online?", "Sim. O atendimento é presencial, na clínica, ou online, por videochamada, conforme o serviço."),

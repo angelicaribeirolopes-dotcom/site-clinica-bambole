@@ -378,3 +378,11 @@ main table{display:block;max-width:100%;overflow-x:auto;-webkit-overflow-scrolli
 @media (max-width:420px){main table{font-size:.9rem}}
 /* foto redonda nas assinaturas */
 .mini-auth img,.author img{flex:0 0 64px;width:64px!important;height:64px!important;min-width:64px;aspect-ratio:1/1;border-radius:50%;object-fit:cover}
+/* bloco de agendamento só com WhatsApp */
+.wa-panel{display:flex;flex-direction:column;gap:14px}
+.wa-panel .btn-big{align-self:flex-start;font-size:1.1rem;padding:16px 26px}
+.wa-info{list-style:none;display:grid;gap:8px;margin:4px 0 0;padding:14px 16px;background:var(--off);border-radius:var(--r-md)}
+.wa-info b{display:inline-block;min-width:96px;font-family:var(--display)}
+.wa-info a{color:inherit}
+@media (max-width:520px){.wa-panel .btn-big{align-self:stretch;justify-content:center}.wa-info b{display:block}}
+.wa-info a{white-space:nowrap}

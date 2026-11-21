@@ -28,7 +28,7 @@ def authority(svc=None):
 
 def start_steps(svc=None):
     return f'''<section class="sec"><div class="wrap"><span class="over"{R()}>Como começar</span><h2{R()}>Como agendar</h2>
-<ol class="start"><li{R(delay=0)}><b>Fale com a gente</b><span>Pelo WhatsApp {NAP["whats"]} ou pelo formulário. Conte o que está acontecendo.</span></li>
+<ol class="start"><li{R(delay=0)}><b>Fale com a gente</b><span>Pelo WhatsApp {NAP["whats"]}. Conte o que está acontecendo.</span></li>
 <li{R(delay=100)}><b>Receba a orientação</b><span>A equipe entende a demanda e indica o serviço mais adequado.</span></li>
 <li{R(delay=200)}><b>Agende e comece</b><span>Escolha o melhor horário, de segunda a sábado, presencial ou online.</span></li></ol>
 <div class="midcta has-mascot"{R()}><img class="mascot" src="/assets/angelica-personagem.webp" alt="Personagem ilustrada da Angélica Lopes, da Clínica Bambolê" width="312" height="600" loading="lazy"><p>Pronto para dar o primeiro passo?</p><a class="btn btn-wa" href="{wa(svc)}" target="_blank" rel="noopener">{wa_icon()}Agende pelo WhatsApp</a></div></div></section>'''
@@ -248,7 +248,7 @@ pages["/perguntas-frequentes/"] = page("/perguntas-frequentes/", "Perguntas freq
     [faq_schema(allfaq)], crumbs=[("Início", "/"), ("Perguntas frequentes", "/perguntas-frequentes/")])
 
 # ---------- CONTATO ----------
-cont = head_block("Contato", "Fale com a Clínica Bambolê", "WhatsApp, formulário, endereço e horários.", "azul") + \
+cont = head_block("Contato", "Fale com a Clínica Bambolê", "WhatsApp, telefones, endereço e horários.", "azul") + \
     tldr(f'A Clínica Bambolê fica na {NAP["rua"]}, bairro {NAP["bairro"]} (Pampulha), Belo Horizonte – MG, {NAP["cep"]}. Atende de segunda a sexta, das 8h às 20h, e aos sábados, das 8h às 16h. WhatsApp: {NAP["whats"]}.') + \
     f'<section class="sec"><div class="wrap contact">{form_html()}{loc_card()}</div></section>' + \
     f'<section class="sec"><div class="wrap wrap-narrow"><span class="over">Outros canais</span><p>Telefones: {NAP["tel2"]} · {NAP["tel3"]}<br>Instagram: <a href="{NAP["instagram"]}" target="_blank" rel="noopener">@clinicabambole</a></p></div></section>'
@@ -256,8 +256,6 @@ pages["/contato/"] = page("/contato/", "Contato e endereço | Clínica Bambolê 
     f'WhatsApp {NAP["whats"]}. {NAP["rua"]}, Santa Amélia (Pampulha), Belo Horizonte. Seg a sex 8h–20h, sáb 8h–16h. Agende na Clínica Bambolê.', cont,
     [{"@type": "ContactPage", "url": BASE + "/contato/"}, clinic_schema()], crumbs=[("Início", "/"), ("Contato", "/contato/")])
 
-pages["/obrigado/"] = page("/obrigado/", "Pedido recebido | Clínica Bambolê", "Obrigado pelo contato.",
-    f'<section class="sec"><div class="wrap wrap-narrow center"><div class="panel"><img class="mascot" src="/assets/angelica-personagem.webp" alt="Personagem ilustrada da Angélica Lopes, da Clínica Bambolê" width="312" height="600" style="width:110px;margin:0 auto 14px"><h1>Pedido recebido!</h1><p class="muted">Obrigado pelo contato. A equipe da Clínica Bambolê vai responder pelo WhatsApp que você informou. Se preferir, fale agora:</p><p><a class="btn btn-wa" href="{WA}" target="_blank" rel="noopener">{wa_icon()}Abrir o WhatsApp</a></p><p><a class="link" href="/">Voltar ao início</a></p></div></div></section>', [], noindex=True)
 p404 = page("/404.html", "Página não encontrada | Clínica Bambolê", "Página não encontrada.",
     '<section class="sec"><div class="wrap wrap-narrow center"><div class="panel"><h1>Página não encontrada</h1><p class="muted">O endereço pode ter mudado. Veja os serviços ou fale com a gente.</p><p><a class="btn btn-navy" href="/servicos/">Ver serviços</a></p></div></div></section>', [], noindex=True)
 

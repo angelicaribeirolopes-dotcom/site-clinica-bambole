@@ -24,7 +24,6 @@ sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps
 open(OUT + "/sitemap.xml", "w").write(sm)
 open(OUT + "/robots.txt", "w").write(f"""User-agent: *
 Allow: /
-Disallow: /obrigado/
 
 # Buscadores e assistentes de IA são bem-vindos
 User-agent: Googlebot

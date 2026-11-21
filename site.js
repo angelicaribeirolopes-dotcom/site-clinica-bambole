@@ -55,17 +55,16 @@
   });
 })();
 document.querySelectorAll('input[name="pagina"]').forEach(function(i){ i.value = location.pathname; });
-/* Conversões: clique no WhatsApp ou no telefone e envio do formulário */
+/* Conversões: clique no WhatsApp ou no telefone */
 (function () {
   function conv(tipo) {
     try { if (window.gtag && window.ADS_CONV) gtag('event', 'conversion', { send_to: window.ADS_CONV, value: 1.0, currency: 'BRL' }); } catch (e) {}
     try { if (window.gtag) gtag('event', 'generate_lead', { method: tipo, page_path: location.pathname }); } catch (e) {}
-    try { if (window.fbq) fbq('track', tipo === 'formulario' ? 'Lead' : 'Contact'); } catch (e) {}
+    try { if (window.fbq) fbq('track', 'Contact'); } catch (e) {}
   }
   document.addEventListener('click', function (ev) {
     var a = ev.target.closest && ev.target.closest('a[href]'); if (!a) return;
     var h = a.getAttribute('href');
     if (h.indexOf('wa.me') > -1) conv('whatsapp'); else if (h.indexOf('tel:') === 0) conv('telefone');
   });
-  if (location.pathname.indexOf('/obrigado') === 0) conv('formulario');
 })();
