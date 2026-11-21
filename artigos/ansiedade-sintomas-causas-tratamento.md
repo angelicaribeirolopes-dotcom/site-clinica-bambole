@@ -1,4 +1,5 @@
 title: Ansiedade: sintomas, causas e como lidar
+seo_title: Ansiedade: sintomas, causas e como lidar | Bambolê BH
 description: O que é ansiedade, quando ela deixa de ser normal, sintomas comuns, tipos de transtorno e caminhos de tratamento com psicoterapia em BH.
 date: 2026-11-21
 cover: /assets/espaco-recepcao.jpg
@@ -55,5 +56,7 @@ A ansiedade costuma vir de uma combinação de fatores:
 ## Quando buscar ajuda
 
 Se a ansiedade está atrapalhando o sono, o trabalho, a escola ou as relações, vale conversar com um profissional. Entender os sinais e as causas é o primeiro passo para lidar melhor com ela.
+
+Leia também: [autoestima: sinais e como melhorar](/artigos/autoestima-o-que-e-como-melhorar/) e [como atendemos](/como-atendemos/).
 
 *Este conteúdo é informativo e não substitui uma avaliação profissional.*

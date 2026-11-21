@@ -1,4 +1,5 @@
 title: Autoestima: o que é, sinais de baixa autoestima e como melhorar
+seo_title: Baixa autoestima: sinais e como melhorar | Bambolê
 description: Entenda o que é autoestima, como reconhecer a baixa autoestima e por que a psicoterapia ajuda a trabalhar as causas, em crianças, adolescentes e adultos.
 date: 2026-11-21
 cover: /assets/espaco-sala-puff.jpg
@@ -41,5 +42,7 @@ Na [psicoterapia](/servicos/terapia-aba/), o psicólogo ajuda a pessoa a identif
 ## Quando procurar um psicólogo
 
 Se você sente que a sua autoestima, ou a do seu filho, está baixa e isso está pesando no dia a dia, conversar com um psicólogo pode ser um bom primeiro passo. Na Bambolê, atendemos crianças, adolescentes e adultos.
+
+Leia também: [ansiedade: sintomas, causas e como lidar](/artigos/ansiedade-sintomas-causas-tratamento/) e [birra ou dificuldade emocional?](/artigos/birra-ou-dificuldade-emocional/).
 
 *Este conteúdo é informativo e não substitui uma avaliação profissional.*

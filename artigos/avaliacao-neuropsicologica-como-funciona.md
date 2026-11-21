@@ -1,5 +1,6 @@
 title: Avaliação neuropsicológica: o que é, para quem é e como funciona
-description: Entenda o que a avaliação neuropsicológica investiga, para quem é indicada, quantas sessões costuma ter e o que você recebe ao final, na Clínica Bambolê em BH.
+seo_title: Avaliação neuropsicológica em BH: como funciona
+description: O que a avaliação neuropsicológica investiga, para quem é indicada e como funciona cada etapa na Clínica Bambolê, em Belo Horizonte.
 date: 2026-11-20
 cover: /assets/angelica-principal.jpg
 cover_alt: Angélica Lopes, neuropsicóloga e fundadora da Clínica Bambolê, em uma sala de atendimento

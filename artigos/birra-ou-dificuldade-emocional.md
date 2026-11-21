@@ -1,4 +1,5 @@
 title: Birra ou dificuldade emocional? Como diferenciar e o que fazer
+seo_title: Birra ou dificuldade emocional? Como diferenciar
 description: Nem todo comportamento difícil é falta de limite. Veja sinais que parecem birra, o que eles podem indicar e quando buscar orientação profissional em BH.
 date: 2026-11-20
 cover: /assets/ig-birra.jpg

@@ -52,7 +52,7 @@ for a in ARTICLES:
     schema = {"@type": "BlogPosting", "@id": BASE + p + "#artigo", "headline": a["title"], "description": a["description"], "image": BASE + a["cover"],
               "datePublished": a["date"], "dateModified": a.get("updated", a["date"]), "inLanguage": "pt-BR",
               "author": {"@id": CLINIC_ID}, "publisher": {"@id": CLINIC_ID}, "mainEntityOfPage": BASE + p, "wordCount": a["words"]}
-    pages[p] = page(p, f'{a["title"]} | Clínica Bambolê', a["description"], body, [schema, person_schema(), faq_schema(a["faq"])], og_img=a["cover"],
+    pages[p] = page(p, a.get("seo_title") or f'{a["title"]} | Clínica Bambolê', a["description"], body, [schema, person_schema(), faq_schema(a["faq"])], og_img=a["cover"],
                     crumbs=[("Início", "/"), ("Artigos", "/artigos/"), (a["title"], p)])
 
 hub_a = head_block("Artigos", "Artigos sobre desenvolvimento, autismo e TDAH", "Conteúdo da Clínica Bambolê para famílias, escolas e adultos neurodivergentes.", "ciano") + \

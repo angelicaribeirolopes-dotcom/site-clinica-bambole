@@ -1,4 +1,5 @@
 title: Autismo (TEA): o que é, sinais, diagnóstico e tratamento
+seo_title: Autismo (TEA): o que é, sinais e diagnóstico | BH
 description: Entenda o que é o autismo (TEA), os níveis de suporte, os sinais mais comuns, como é feito o diagnóstico e como funciona o tratamento multidisciplinar.
 date: 2026-11-21
 cover: /assets/espaco-sala-ampla.jpg
@@ -58,5 +59,7 @@ O tratamento é multidisciplinar e feito sob medida para cada pessoa e cada fam�
 Psicólogos, fonoaudiólogos, terapeutas ocupacionais, psicopedagogos, musicoterapeutas e médicos trabalham juntos nesse acompanhamento. Na Bambolê, essas áreas ficam na mesma clínica. Veja como atendemos [autismo (TEA)](/autismo-tea/).
 
 Crianças com sinais de desenvolvimento atípico, mesmo sem diagnóstico fechado, também podem se beneficiar da intervenção precoce.
+
+Leia também: [sinais de autismo em bebês](/artigos/sinais-de-autismo-em-bebes-12-18-24-meses/) e [TEA, TDAH, TOD e TOC: o que significa cada sigla](/artigos/tea-tdah-tod-siglas/).
 
 *Este conteúdo é informativo e não substitui uma avaliação profissional.*
